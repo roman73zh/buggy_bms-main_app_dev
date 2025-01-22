@@ -55,11 +55,11 @@ extern "C" void app_main(void) {
 
     start_udp_server();
 
-    int64_t time = esp_timer_get_time();
+    // int64_t time = esp_timer_get_time();
 
-    std::string result = bmsPage.serialize();
+    // std::string result = bmsPage.serialize();
 
-    time = esp_timer_get_time() - time;
+    // time = esp_timer_get_time() - time;
 
     // ESP_LOGI(TAG, "%lld - %s", time, result.c_str());
 }
